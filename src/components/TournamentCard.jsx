@@ -5,8 +5,8 @@ import DemoImg from '../../public/CricketDemoImg.jpg'
 
 const TournamentCard = ({ img, name, url }) => {
     return (
-        <div className="max-w-sm  shadow-md  rounded-lg">
-            <Link href={url} className=' w-full h-full rounded-lg shadow-lg'>
+        <div className="max-w-sm  shadow-xl  rounded-lg">
+            <Link href={`/tournaments/${url}`} className=' w-full h-full rounded-lg shadow-lg'>
                 <Image className="rounded-t-lg" src={img || DemoImg} alt={name} />
                 <div className="flex justify-center rounded-b-lg bg-[#0268BB] text-white items-center h-20 ">
                     <div className='flex flex-wrap '>

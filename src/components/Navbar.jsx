@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <>
-            <header className='flex w-full mx-auto h-16 text-[#1E487F]'>
+            <header className='flex w-full mx-auto h-16 shadow-lg text-[#1E487F]'>
                 <nav className='flex w-full  items-center border-b justify-between lg:max-w-7xl mx-auto '>
                     <div className='ml-2 lg:ml-0'>
                         <Image src={Logo} alt='Logo Image' />
