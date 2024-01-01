@@ -2,16 +2,13 @@ import TournamentCard from "./TournamentCard"
 
 const tournaments = [
   {
-    tournamentName: 'Maharashtra Premier League',
-    url: 'League'
+    tournamentName: 'Maharashtra Premier League'
   },
   {
-    tournamentName: 'Gujarat Premier League',
-    url: 'League'
+    tournamentName: 'Gujarat Premier League'
   },
   {
-    tournamentName: 'Mumbai Premier League',
-    url: 'League'
+    tournamentName: 'Mumbai Premier League'
   }
 
 ]
@@ -27,7 +24,7 @@ const TournamentSection = () => {
           <div className="grid grid-cols-1 gap-10 justify-between md:grid-cols-2 lg:grid-cols-3">
             {
               tournaments.map((tournament, index) => (
-                <TournamentCard key={index} name={tournament.tournamentName} url={tournament.url} />
+                <TournamentCard key={index} name={tournament.tournamentName} />
               ))
             }
           </div>
